@@ -79,3 +79,65 @@ window.onload = () => {
         }
     });
 };
+
+
+
+//Example
+
+
+
+// <script>
+// document.getElementById('btn1').onclick = function() {
+//     document.getElementById('btn1').innerHTML++;
+// };
+
+// document.getElementById('btn2').onclick = function() {
+//     document.getElementById('btn2').innerHTML++;
+// };
+
+// document.getElementById('btn3').onclick = function() {
+//     document.getElementById('btn3').innerHTML++;
+// };
+
+// document.getElementById('btn4').onclick = function() {
+//     document.getElementById('btn4').innerHTML++;
+// };
+// </script>
+
+
+// <script>
+// function action(e) {
+//     /* Older IE browsers have a srcElement property,
+//     but other browsers have a 'target' property; 
+//     Set btn to whichever exists. */
+//     var btn = e.target || e.srcElement;
+    
+//     /* Get the clicked element's innerHTML */
+//     document.getElementById(btn.id).innerHTML++;
+// }
+
+// /* Set each button to call action(e) when clicked */
+// document.getElementById('btn1').onclick = action;
+// document.getElementById('btn2').onclick = action;
+// document.getElementById('btn3').onclick = action;
+// document.getElementById('btn4').onclick = action;
+// </script>
+
+// <script>
+// /* Parameter 'e' is the click Event */
+// function action(e) {
+//     /* Older IE browsers have a srcElement property,
+//     but other browsers have a 'target' property; 
+//     Set btn to whichever exists. */
+//     var btn = e.target || e.srcElement;
+    
+//     /* Get the clicked element's innerHTML */
+//     document.getElementById(btn.id).innerHTML++;
+// }
+
+// /* Add a click event listener that calls action(e) when clicked */
+// document.getElementById('btn1').addEventListener('click', action);
+// document.getElementById('btn2').addEventListener('click', action);
+// document.getElementById('btn3').addEventListener('click', action);
+// document.getElementById('btn4').addEventListener('click', action);
+// </script>
